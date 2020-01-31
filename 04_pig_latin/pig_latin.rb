@@ -11,10 +11,10 @@ def translate(string)
     elsif !(string.match?(/^[aeiouAEIOU]{3}/))
         string.split('').rotate(3).join('') + 'ay'
     #should have separate methods in a class to call in the different conditions (call vowel first method and consonant first method on the multiple words in the array in an .each)
-    elsif string.match?(/\s/)
-        array = string.split(' ')
-        array.each do |word|
-            word.split('')
+    #elsif string.match?(/\s/)
+        #array = string.split(' ')
+        #array.each do |word|
+            #word.split('')
     end 
 end 
 
